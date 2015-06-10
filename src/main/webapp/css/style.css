@@ -1,0 +1,162 @@
+html,body{height:100%;}
+body {margin: 0px;}
+.inline-block{display:inline-block;}
+.thick{font-weight:bold;}
+.left-space{margin-left:2em;}
+.right-space{margin-right:10px;}
+.big-font{font-size:1.7em;}
+.bottom-space{margin-bottom:1%;}
+.aqua-blue{color:#66CCCC;}
+.bit-big-font{font-size:1.3em;}
+.double-bottom-space{margin-bottom:2%;}
+.center{text-align:center;}
+.flow-right{float:right;}
+.italics {font-style: italic;}
+i {margin-right: 5px;}
+
+/* Login Page Start*/
+.invisible {
+	visibility: hidden;	
+}
+
+/*mine*/
+.top-bar {
+margin-left: 0px;
+background-color: #46535c;
+padding: 10px 0;
+box-sizing: border-box;
+/*display: block;
+background-color: #333;
+color: #fff;
+color: #38424b;*/
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 1.625
+}
+
+.top-bar-inner {
+max-width: 800px;
+width: 100%;
+margin: 0 auto;
+text-align: right;
+color: #bdc3c7;
+font-size: 14px;
+text-transform: uppercase;
+box-sizing: border-box;
+
+}
+
+.author-box:before, .clearfix:before, .entry:before, .entry-content:before, .footer-widgets:before, .nav-primary:before, .nav-secondary:before, .pagination:before, .site-container:before, .site-footer:before, .site-header:before, .site-inner:before, .wrap:before {
+content: " ";
+display: table;
+}
+
+media="all"
+.author-box:after, .clearfix:after, .entry:after, .entry-content:after, .footer-widgets:after, .nav-primary:after, .nav-secondary:after, .pagination:after, .site-container:after, .site-footer:after, .site-header:after, .site-inner:after, .wrap:after {
+clear: both;
+content: " ";
+display: table;
+}
+
+/*mine*/
+
+
+
+.loginbody{overflow: hidden;}
+
+.loginheader {
+width: 100%;
+display: inline-block;
+height: 4.5em;
+position: fixed;
+top: 0;
+border: 0px solid #ccc;
+border-top: 0px;
+margin: 0% 0%;
+/*background-color: #eee;*/
+z-index:100;
+}
+
+.sd_logo {
+	margin-left:5em;
+	padding: 1% 1%;	
+}
+
+.loginouterbox {
+margin-top: 8%;
+border: 1px solid #ccc;
+width: 66%;
+margin-left: 11%;
+padding: 5%;
+-moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#ccc;
+box-shadow: 0 0 22px 17px #ccc;
+}
+
+.logininnerbox {
+width: 50%;
+margin-left: 25%;
+border: 1px solid #ccc;
+padding: 2% 1%;
+border-radius: 10px;
+}
+/* Login Page End*/
+
+/* Logout Box Start*/
+.logout-block {
+margin-top: 0.8%;
+margin-right: 2%;
+}
+.logout-btn
+{
+	cursor:pointer;
+}
+/* Logout Box End*/
+
+.topboxspace {
+padding-top: 9%;
+}
+
+/*Welcome page */
+.major-text-holder {
+font-size: 25pt;
+font-family: comic sans ms;
+margin-bottom: 5%;
+font-weight: bold;
+line-height: 1.2em;
+}
+.welcome-text {
+font-size: 15pt;
+font-family: times;
+margin-left: 5%;
+}
+.searchboxtext {
+margin-top: 2%;
+font-size: 14pt;
+margin-bottom: 2%;
+background-color: #C3D69B;
+padding: 5px;
+}
+.searchbox {
+background-color: #8EB4E3;
+margin-bottom: 2%;
+font-weight: bold;
+font-size: 13pt;
+padding-bottom: 2%;
+}
+.welcometextbox{width:80%;}
+/*Welcome page  End*/
+
+
+
+select {
+	font-size: 12px;
+}
+
+.info{
+	background-color: antiquewhite;
+}
+.small_col {
+	min-width: 20px;
+}
